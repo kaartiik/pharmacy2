@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.pharmacist.pharmacistAuth.PharmacistRegister">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/pharmacist_register_toolbar"
+            layout="@layout/toolbar_layout"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+        <TextView
+            android:id="@+id/pharmacist_text_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/register"
+            android:textColor="#03071E"
+            android:textAllCaps="true"
+            android:fontFamily="@font/adamina"
+            app:layout_constraintTop_toBottomOf="@id/pharmacist_register_toolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="20dp"
+            android:textSize="25sp"/>
+
+        <ImageView
+            android:id="@+id/pharmacist_icon_register"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/verify"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/app_name"
+            android:layout_marginTop="50dp"
+            app:layout_constraintTop_toBottomOf="@id/pharmacist_text_register"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <EditText
+            android:id="@+id/pharmacist_register_editText_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="20dp"
+            android:hint="@string/name"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/pharmacist_icon_register"
+            android:textColor="#121212"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/pharmacist_register_editText_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:hint="@string/email"
+            app:layout_constraintTop_toBottomOf="@id/pharmacist_register_editText_name"
+            android:inputType="textEmailAddress"
+            android:textColor="#121212"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/pharmacist_register_editText_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:hint="@string/phone_number"
+            android:layout_marginHorizontal="20dp"
+            android:inputType="phone"
+            android:textColor="#121212"
+            android:layout_marginTop="5dp"
+            app:layout_constraintTop_toBottomOf="@id/pharmacist_register_editText_email"
+            android:textSize="13sp" />
+
+
+
+        <EditText
+            android:id="@+id/pharmacist_register_editText_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="numberPassword"
+            android:textColor="#121212"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintTop_toBottomOf="@id/pharmacist_register_editText_phone"
+            android:textSize="13sp"
+            />
+        <EditText
+            android:id="@+id/pharmacist_register_editText_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/address"
+            android:inputType="textMultiLine"
+            android:textColor="#121212"
+            android:layout_marginHorizontal="20dp"
+            android:lines="3"
+            android:gravity="top|start"
+            android:layout_marginTop="5dp"
+            app:layout_constraintTop_toBottomOf="@id/pharmacist_register_editText_password"
+            android:textSize="13sp"
+            />
+
+        <Button
+            android:id="@+id/pharmacist_register__register_button"
+            android:layout_width="320dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:background="#E57373"
+            android:text="@string/register"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pharmacist_register_editText_address" />
+
+        <TextView
+            android:id="@+id/pharmacist_register_textView_login_here"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/already_have_account_login_here"
+            android:textColor="#151414"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pharmacist_register__register_button" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

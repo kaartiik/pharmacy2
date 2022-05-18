@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "590909740994",
+    "firebase_url": "https://wahdah-pharmacy.firebaseio.com",
+    "project_id": "wahdah-pharmacy",
+    "storage_bucket": "wahdah-pharmacy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590909740994:android:98fed56e8be3e0c46a685b",
+        "android_client_info": {
+          "package_name": "com.example.wahdahpharmacy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590909740994-dvt93h17qbov72kamk87udgu05nq63ua.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wahdahpharmacy",
+            "certificate_hash": "d4e4e6f93b1c3c52bbe356ee75f5499af1c23443"
+          }
+        },
+        {
+          "client_id": "590909740994-apae2iujj2842vdlvf7sh8bk1vjem523.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtSkyEmihN5wRaujwLP5k7tLTpIn5_0P4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590909740994-apae2iujj2842vdlvf7sh8bk1vjem523.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

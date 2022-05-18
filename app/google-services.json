@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "403053827915",
+    "project_id": "pharmacy2-b4a40",
+    "storage_bucket": "pharmacy2-b4a40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403053827915:android:a5b57b8f7edcd516cd7ace",
+        "android_client_info": {
+          "package_name": "com.example.wahdahpharmacy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403053827915-uiuptd9eqrojqqur39j24oll3rmmevld.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wahdahpharmacy",
+            "certificate_hash": "348eed39e4f804f15fd6783213dcc37a463155b2"
+          }
+        },
+        {
+          "client_id": "403053827915-ukm1fh9cuq70d42e4uvabfmr936cl0ve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_1cYMLGmgZJFhtRBBN1olxFroD2PZFLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403053827915-ukm1fh9cuq70d42e4uvabfmr936cl0ve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

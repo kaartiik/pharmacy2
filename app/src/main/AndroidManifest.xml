@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wahdahpharmacy">
+
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.universalActivities.OrderView"></activity>
+        <activity android:name=".ui.customer.activities.ShoppingCart" />
+        <activity android:name=".ui.universalActivities.EditContactUs" />
+        <activity android:name=".ui.universalActivities.AddUpdateProduct" />
+        <activity android:name=".ui.universalActivities.EditHealthInfo" />
+        <activity android:name=".ui.universalActivities.AddService" />
+        <activity android:name=".ui.universalActivities.ComplaintView" />
+        <activity android:name=".ui.universalActivities.Complaints" />
+        <activity android:name=".ui.customer.activities.AddComplaint" />
+        <activity android:name=".ui.universalActivities.MyOrders" />
+        <activity android:name=".ui.universalActivities.EditPromotion" />
+        <activity android:name=".ui.universalActivities.ViewPromotion" />
+        <activity android:name=".ui.universalActivities.Promotions" />
+        <activity android:name=".ui.customer.activities.Bookings" />
+        <activity android:name=".ui.universalActivities.ContactUs" />
+        <activity android:name=".ui.universalActivities.Services" />
+        <activity android:name=".ui.pharmacist.pharmacistAuth.PharmacistLogin" /> <!-- Universal Activities -->
+        <activity android:name=".ui.universalActivities.MyProfile" />
+        <activity android:name=".ui.universalActivities.EditProfile" />
+        <activity android:name=".ui.universalActivities.ChatPharmacist" />
+        <activity android:name=".ui.universalActivities.ChatView" />
+        <activity android:name=".ui.universalActivities.Intro" />
+        <activity android:name=".ui.pharmacist.pharmacistAuth.PharmacistRegister" />
+        <activity android:name=".ui.pharmacist.pharmacistAuth.PharmacistScreen" />
+        <activity android:name=".ui.customer.activities.customerAuth.CustomerRegister" />
+        <activity android:name=".ui.customer.activities.customerAuth.CustomerLogin" />
+        <activity android:name=".ui.customer.activities.CustomerPayment" />
+        <activity android:name=".ui.customer.activities.customerAuth.CustomerScreen" /> <!-- Pharmacist Dashboard -->
+        <activity android:name=".ui.pharmacist.PharmacistHome" /> <!-- Customer Dashboard -->
+        <activity android:name=".ui.customer.activities.CustomerHome" />
+        <activity
+            android:name=".ui.universalActivities.Splash"
+            android:theme="@style/AppTheme.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
